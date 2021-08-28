@@ -11,12 +11,16 @@ class Bank():
         print("payed")
 
 # Define some cars
-cashtaken = Bank("icici", 234567890, 22337766) 
-cashtaken2 = Bank("hdfc", 662987669, 99269671)
+cashtaken = Bank("ICICI", 234567890, 22337766) 
+cashtaken2 = Bank("HDFC", 662987669, 99269671)
 
+print("card1")
 print(cashtaken.name)
-print(cashtaken.pin)
-print(cashtaken.cardnumber)
+print("pin:",cashtaken.pin)
+print("card number:",cashtaken.cardnumber)
+print(" ")
+print("Card2")
 print(cashtaken2.name)
-print(cashtaken2.pin)
-print(cashtaken2.cardnumber)
+print("pin:",cashtaken2.pin)
+print("card number:",cashtaken2.cardnumber)
+
